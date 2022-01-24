@@ -1,0 +1,19 @@
+.promo {
+    display: flex;
+    margin-top: 40px;
+    &__inner {
+        height: 175px;
+        width: 100%;
+        padding: 35px;
+        background-color: #203A4D;
+        background: url(../img/promo-bg.jpg) center (center/cover) repeat;
+        border-radius: 5px;
+    }
+    &__title {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+        text-transform: uppercase;
+    }
+}
