@@ -1,0 +1,30 @@
+.title {
+    color: $main-color;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+    &_center {
+        text-align: center;
+    }
+    &__all {
+        position: relative;
+        color: #3B4254;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-decoration: none;
+        img {
+            position: absolute;
+            margin-left: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        &-mr {
+            margin-right: 24px;
+        }
+    }
+    
+}
+
+
+    
