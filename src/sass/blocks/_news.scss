@@ -1,16 +1,20 @@
 .news {
+    width: 100%;
     display: flex;
     padding: 40px 0;
     &__inner {
         display: flex;
         justify-content: space-between;
+        flex-wrap: nowrap;
     }
     
 }
 
 .news-page {
+    width: 100%;
     max-width: 900px;
     &__title {
+        width: 100%;
         display: flex;
         justify-content: space-between;
         height: 50px;
@@ -18,10 +22,13 @@
     }
     &__wrapper {
         display: flex;
+        width: 100%;
         margin-top: 30px;
     }
     &__item {
-        width: 435px;
+        position: relative;
+        width: 100%;
+        max-width: 435px;
         height: 510px;
         background-color: #F0F2F8;
         margin-right: 30px;
@@ -33,7 +40,8 @@
     &__img {
         position: relative;
         overflow: hidden;
-        width: 435px;
+        width: 100%;
+        max-width: 435px;
         height: 240px;
         align-items: center;
         border-radius: 5px 5px 0 0 ;
@@ -43,24 +51,26 @@
             top: 50%;
             left: 50%;
             transform: translate3d(-50%,-50%,0);
-            min-height: 240px;
             width: 100%;
         }
     }
     &__info {
-        position: relative;
-        width: 405px;
+        width: 100%;
         height: 230px;
-        padding: 20px 15px;
+        // padding: 20px 15px;
     }
     &__subtitle {
+        display: block;
+        padding: 20px 15px;
         color: $main-color;
         font-size: 24px;
         font-weight: 700;
+        line-height: 30px;
         text-decoration: none;
     }
     &__descr {
-        margin-top: 15px;
+        display: block;
+        padding: 0 15px;
         color: #696868;
         font-size: 14px;
         font-weight: 400;
@@ -76,6 +86,9 @@
 }
 
 .announcement {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     max-width: 270px;
     &__wrapper {
         margin-top: 30px;
@@ -85,14 +98,17 @@
     &__item {
         margin-bottom: 20px;
         background-color: #F0F2F8;
-        width: 240px;
-        padding: 15px;
+        width: 100%;
+        max-width: 270px;
         text-align: center;
         border-radius: 5px;
-
         color: #0B569E;
         font-size: 16px;
         font-weight: 400;
         text-decoration: none;
+        p {
+            padding: 15px;
+        }
     }
+    
 }
