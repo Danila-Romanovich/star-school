@@ -11,50 +11,7 @@
     <title>МБОУ "Звёздненская СОШ"</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header__bar">
-            <div class="container">
-                <nav>
-                    <ul>
-                        <li><a href="#">Расписание</a></li>
-                        <li><a href="#">Электронный дневник</a></li>
-                        <li><img src="img/icons/eye.svg" alt=""></li>
-                        <li><a href="#"><img src="img/icons/search.svg" alt=""></a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="header__logo">
-                <img src="img/icons/logo.svg" alt="logotype">
-                <div class="header__text">
-                    <div class="headder__descr">
-                        Муниципальное бюджетное<br>
-                        общеобразовательное учреждение
-                    </div>
-                    <h1>“Звёздненская средняя общеобразовательная школа”</h1>
-                </div>
-            </div>
-            <hr>
-            <div class="header__menu">
-                <ul>
-                    <li><a href="#">Новости</a></li>
-                    <li><a href="#">Школа</a></li>
-                    <li><a href="#">Ученику</a></li>
-                    <li><a href="#">Родителю</a></li>
-                    <li><a href="#">Образование</a></li>
-                    <li><a href="#">Учебная деятельность</a></li>
-                </ul>
-            </div>
-            
-            <hr>
-        </div>
-
-        
-
-    </header>
-        
+    @@include('partials/header.html')
     <section class="promo">
         <div class="container">
             <div class="promo__inner">
@@ -146,35 +103,7 @@
         </div>
     </section>
 
-    <footer class="footer">
-        <div class="container">
-            <h2 class="title title_footer">МБОУ ”Звёздненская СОШ”</h2>
-
-            <div class="footer__wrapper">
-
-                <div class="footer__contacts">
-                    <div class="footer__subtitle">Контакты:</div>
-
-                    <p>
-                        Телефон:
-                        <a href="tel:+73842601123" class="footer__phone">+7 (3842) 60-11-23</a><br>  
-                        <a href="mailto:19star67@gmail.com" class="footer__mail">19star67@gmail.com</a><br>  
-                        <a href="mailto:starschool@rambler.ru" class="footer__mail">starschool@rambler.ru</a><br>
-                    </p>
-                </div>
-
-                <div class="footer__address">
-                    <div class="footer__subtitle">Адрес:</div>
-                    <address>
-                        650526, Кемеровская область - Кузбасс,<br>
-                        Кемеровский округ, п. Звездный, ул. Школьная, 9
-                    </address>
-                </div>
-
-            </div>
-            
-        </div>
-    </footer>
+    @@include('partials/footer.html')
 
 </body>
 </html>
