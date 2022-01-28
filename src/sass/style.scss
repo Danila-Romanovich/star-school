@@ -1,4 +1,5 @@
 @import 'base/variables';
+@import 'base/mixins';
 
 * {
     font-family: 'Open Sans', sans-serif;
@@ -35,3 +36,4 @@ hr {
 @import 'blocks/title';
 @import 'blocks/helpful';
 @import 'blocks/footer';
+@import 'blocks/page';
