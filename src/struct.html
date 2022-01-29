@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Структура и органы управления образовательной организацией</title>
+</head>
+<body>
+    @@include('partials/header.html')
+    <section class="page-nav">
+        <div class="container">
+            <div class="page-nav__wrapper">
+                <div class="page-nav__breadcrumbs">
+                    <ul class="page-nav__list">
+                        <li class="page-nav__way"><a href="index.html">Главная</a></li>
+                        <img src="img/icons/next.svg" alt="">
+                        <li class="page-nav__way"><a href="sveden.html">Сведения об образовательной организации</a></li>
+                        <img src="img/icons/next.svg" alt="">
+                        <li class="page-nav__way">Структура и органы управления образовательной организацией</li>
+                    </ul>
+                </div>
+                <h1 class="title title_center">Структура и органы управления образовательной организацией</h1>
+                <!-- <hr> -->
+                <!-- <hr> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="page">
+        <div class="container">
+            <div class="page__wrapper">
+                @@include('partials/page-bar.html')
+                <div class="page__article">
+                    <p>
+                        <span class="page__title">Cтруктурные подразделения образовательной организации</span><br>
+                        Структурные подразделения отсутствуют
+                        <br><br>
+                        <span class="page__title">Органы управления образовательной организацией:</span><br>
+                    </p>
+                        
+                    <ul class="page__doc">
+                        <li class="page__item">
+                            <img src="img/icons/file-alt-regular.svg" alt="">
+                            <a href="#">Общее собрание работников учреждения (Положение)</a>
+                        </li>
+                        <li class="page__item">
+                            <img src="img/icons/file-alt-regular.svg" alt="">
+                            <a href="#">Педагогический совет (Положение)</a>
+                        </li>
+                        <li class="page__item">
+                            <img src="img/icons/file-alt-regular.svg" alt="">
+                            <a href="#">Управляющий совет (Положение)</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <span class="page__title">Директор МБОУ "Звездненская СОШ"</span><br>
+                        Булдыгин Александр Юрьевич
+                        <br><br>
+                        <span class="page__title">Заместитель директора по учебно-воспитательной работе</span><br>
+                        Церна Ольга Леонидовна
+                        <br><br>
+                        <span class="page__title">Заместитель директора по воспитательной работе</span><br>
+                        Степанова-Чернова Анна Юрьевна
+                        <br><br>
+                        <span class="page__title">Заместитель директора по безопасности образовательного процесса</span><br>
+                        Сусликов Николай Юрьевич
+                        <br><br>
+                        <span class="page__title">Старший воспитатель</span><br>
+                        Комолова Олеся Ивановна
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    @@include('partials/footer.html')
+</body>
+</html>

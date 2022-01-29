@@ -15,6 +15,14 @@ h1, h2, h3, h4, p, ul, li {
     margin: 0;
 }
 
+a {
+    &:hover {
+        color: #e84545;
+    }
+}
+    
+
+
 hr {
     width: 100%;
     border-bottom: none;
@@ -37,3 +45,4 @@ hr {
 @import 'blocks/helpful';
 @import 'blocks/footer';
 @import 'blocks/page';
+@import 'blocks/page-bar';

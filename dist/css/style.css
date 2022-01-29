@@ -18,6 +18,10 @@ li {
   margin: 0;
 }
 
+a:hover {
+  color: #e84545;
+}
+
 hr {
   width: 100%;
   border-bottom: none;
@@ -98,6 +102,10 @@ hr {
   text-decoration: none;
 }
 
+.header__bar nav a:hover {
+  color: #f1b315;
+}
+
 .header__bar nav img {
   display: block;
 }
@@ -159,6 +167,10 @@ hr {
 .header__menu a {
   color: #061a44;
   text-decoration: none;
+}
+
+.header__menu a:hover {
+  color: #e84545;
 }
 
 .news {
@@ -538,6 +550,36 @@ hr {
 .page__addr {
   font-weight: 300;
   font-style: italic;
+}
+
+.page__doc {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.page__item {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.page__item picture {
+  width: 13px;
+  margin-right: 10px;
+}
+
+.page__item img {
+  width: 13px;
+  margin-right: 10px;
+}
+
+.page__item a {
+  line-height: 18px;
+}
+
+.page__item_inner {
+  margin-left: 30px;
 }
 
 .page-bar {

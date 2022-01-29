@@ -1,0 +1,33 @@
+.page-bar {
+    max-width: 200px;
+    background-color: #F0F2F8;
+    border-radius: 5px;
+    padding: 20px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    &__list {
+        list-style: none;
+    }
+    &__item {
+        position: relative;
+        display: flex;
+        padding-right: 15px;
+        margin-bottom: 20px;
+    }
+    &__marker {
+        position: absolute;
+        background-color: #bdccdb;
+        width: 10px;
+        height: 10px;
+        top: 5px;
+        border-radius: 100%;
+    }
+    &__link {
+        margin-left: 25px;
+        color: $link-color;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        text-decoration: none;
+    }
+}

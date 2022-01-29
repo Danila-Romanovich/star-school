@@ -31,6 +31,9 @@
             a {
                 color: #FCFDFF;
                 text-decoration: none;
+                &:hover {
+                    color: $gold-color;
+                }
             }
             img {
                 display: block;
@@ -88,6 +91,9 @@
         a{
             color: $main-color;
             text-decoration: none;
+            &:hover {
+                color: #e84545;
+            }
         }
     }
 }

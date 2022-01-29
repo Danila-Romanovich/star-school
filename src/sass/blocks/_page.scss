@@ -84,8 +84,6 @@
             font-weight: 400;
             text-decoration: none;
         }
-        
-        
     }
     &__title {
         font-size: 16px;
@@ -99,38 +97,29 @@
         font-weight: 300;
         font-style: italic;
     }
-}
-
-.page-bar {
-    max-width: 200px;
-    background-color: #F0F2F8;
-    border-radius: 5px;
-    padding: 20px 15px 0 15px;
-    display: flex;
-    flex-direction: column;
-    &__list {
-        list-style: none;
+    &__doc {
+        margin-left: 20px;
+        margin-bottom: 30px;
     }
     &__item {
-        position: relative;
         display: flex;
-        padding-right: 15px;
-        margin-bottom: 20px;
-    }
-    &__marker {
-        position: absolute;
-        background-color: #bdccdb;
-        width: 10px;
-        height: 10px;
-        top: 5px;
-        border-radius: 100%;
-    }
-    &__link {
-        margin-left: 25px;
-        color: $link-color;
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 20px;
-        text-decoration: none;
+        align-items: center;
+        list-style: none;
+        margin-top: 10px;
+        picture {
+            width: 13px;
+            margin-right: 10px;
+        }
+        img {
+            width: 13px;
+            margin-right: 10px;
+        }
+        a {
+            line-height: 18px;
+        }
+        &_inner {
+            margin-left: 30px;
+        }
     }
 }
+
