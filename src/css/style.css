@@ -342,6 +342,10 @@ hr {
   margin: 0;
 }
 
+.title_announcement {
+  margin: 0 auto;
+}
+
 .helpful {
   width: 100%;
   display: flex;
@@ -468,11 +472,10 @@ hr {
   align-items: center;
 }
 
-.page-nav__list picture {
-  display: flex;
-  align-items: center;
-  margin: 0 10px;
-  width: 10px;
+.page-nav__list span {
+  margin: 0 5px;
+  color: #061a44;
+  font-size: 10px;
 }
 
 .page-nav__menu {
@@ -553,33 +556,10 @@ hr {
   font-style: italic;
 }
 
-.page__doc {
-  margin-left: 20px;
-  margin-bottom: 30px;
-}
-
-.page__item {
-  display: flex;
-  list-style: none;
-  margin-top: 10px;
-}
-
-.page__item picture {
-  width: 13px;
-  margin-right: 10px;
-}
-
-.page__item img {
-  width: 13px;
-  margin-right: 10px;
-}
-
-.page__item a {
-  line-height: 18px;
-}
-
-.page__item_inner {
-  margin-left: 30px;
+.page__link a {
+  color: #0b569e;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .page-bar {
@@ -655,6 +635,41 @@ hr {
 
 .table_list td:nth-child(1) {
   text-align: left;
+}
+
+.list {
+  margin: 20px 0;
+}
+
+.list__item {
+  margin-top: 10px;
+  margin-left: 20px;
+  display: list-item;
+  list-style: square;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.list__item_inner {
+  margin-left: 40px;
+  list-style: disc;
+}
+
+.list__item_doc {
+  margin-left: 0;
+  list-style: none;
+  display: flex;
+}
+
+.list__item_doc span {
+  margin-top: 2px;
+  margin-right: 7px;
+}
+
+.list__item_doc a {
+  color: #0b569e;
 }
 @supports (-webkit-appearance:none){
 .promo__inner{background:url(../img/promo-bg.webp) center center/cover repeat}

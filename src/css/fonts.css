@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'icons_pac';
+  src:  url('../fonts/icons_pac.eot?xqb1f1');
+  src:  url('../fonts/icons_pac.eot?xqb1f1#iefix') format('embedded-opentype'),
+    url('../fonts/icons_pac.ttf?xqb1f1') format('truetype'),
+    url('../fonts/icons_pac.woff?xqb1f1') format('woff'),
+    url('../fonts/icons_pac.svg?xqb1f1#icons_pac') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons_pac' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-circle-up-solid:before {
+  content: "\e900";
+}
+.icon-chevron-right-solid:before {
+  content: "\e901";
+}
+.icon-file-alt-regular:before {
+  content: "\e902";
+}
+.icon-file-alt-solid:before {
+  content: "\e903";
+}
+.icon-graduation-cap-solid:before {
+  content: "\e904";
+}
+.icon-eye:before {
+  content: "\e905";
+  color: #fcfdff;
+}
+.icon-logo:before {
+  content: "\e906";
+}
+.icon-right-arrow:before {
+  content: "\e907";
+  color: #3b4254;
+}
+.icon-search:before {
+  content: "\e908";
+  color: #fff;
+}

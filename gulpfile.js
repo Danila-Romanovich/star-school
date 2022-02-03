@@ -16,7 +16,7 @@ let path = {
         js: source_folder + "/js/script.js",
         img: source_folder + "/img/**/*.+(png|jpg|gif|ico|svg|webp)",
         fonts: source_folder + "/fonts/*.ttf",
-        fontCss: source_folder + "/css/font.css"
+        fontCss: source_folder + "/css/fonts.css"
     },
     watch: {
         html: source_folder + "/**/*.html",
@@ -92,11 +92,11 @@ function css() {
         .pipe(browsersync.stream())
 }
 
-// function fontCSS() {
-//     src(path.src.fontCss)
-//         .pipe(dest(path.build.css))
-//         .pipe(browsersync.stream())
-// }
+function fontCSS() {
+    src(path.src.fontCss)
+        .pipe(dest(path.build.css))
+        .pipe(browsersync.stream())
+}
 
 function js() {
     return src(path.src.js)
@@ -192,17 +192,17 @@ function watchFiles(params) {
     gulp.watch([path.watch.css], css);
     gulp.watch([path.watch.js], js);
     gulp.watch([path.watch.img], images);
-    // gulp.watch([path.watch.fontCss], fontCSS)
+    gulp.watch([path.watch.fontCss], fontCSS)
 }
 
 function clean(params) {
     return del(path.clean);
 }
 
-let build = gulp.series(clean, gulp.parallel(js, css, html, images, fonts));
+let build = gulp.series(clean, gulp.parallel(js, css, fontCSS, html, images, fonts));
 let watch = gulp.parallel(build, watchFiles, browserSync);
 
-// exports.fontCSS = fontCSS;
+exports.fontCSS = fontCSS;
 exports.fontsStyle = fontsStyle;
 exports.fonts = fonts;
 exports.images = images;
