@@ -38,4 +38,11 @@
             }
         }
     }
+    &_vertical {
+        td {
+            &:first-child {
+                background-color: #cae0f5;
+            }
+        }
+    }
 }

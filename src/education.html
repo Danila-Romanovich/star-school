@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icons_pac.woff">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Образование</title>
+</head>
+<body>
+    @@include('partials/header.html')
+    <section class="page-nav">
+        <div class="container">
+            <div class="page-nav__wrapper">
+                <div class="page-nav__breadcrumbs">
+                    <ul class="page-nav__list">
+                        <li class="page-nav__way"><a href="index.html">Главная</a></li>
+                        <span class="icon-chevron-right-solid"></span>
+                        <li class="page-nav__way"><a href="sveden.html">Сведения об образовательной организации</a></li>
+                        <span class="icon-chevron-right-solid"></span>
+                        <li class="page-nav__way">Образование</li>
+                    </ul>
+                </div>
+                <h1 class="title title_center">Образование</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="page">
+        <div class="container">
+            <div class="page__wrapper">
+                @@include('partials/page-bar.html')
+                <div class="page__article">
+                    <span class="page__title">
+                        Образовательная организация осуществляет образовательный процесс по программам дошкольного, 
+                        начального общего, основного общего и среднего общего образования:
+                    </span>
+                    <ul class="list">
+                        <li class="list__item">
+                            <span class="page__title">Начальное общее образование</span> (нормативный срок освоения – 4 года), 
+                            обеспечивает освоение обучающимися основных общеобразовательных программ начального общего образования. 
+                            Начальное общее образования является базой для получения основного общего образования;
+                        </li>
+                        <li class="list__item">
+                            <span class="page__title">Основное общее образование</span> (нормативный срок освоения – 5 лет), 
+                            обеспечивает освоение обучающимися основных общеобразовательных программ основного общего образования, 
+                            условия становления и формирования личности обучающегося, его склонностей, интересов и способности 
+                            к социальному самоуправлению. Основное общее образование является базой для получения среднего общего 
+                            образования и среднего профессионального образования;
+                        </li>
+                        <li class="list__item">
+                            <span class="page__title">Среднее общее образование</span> (нормативный срок освоения – 2 года), 
+                            является завершающим этапом общеобразовательной подготовки, обеспечивающим освоение обучающимися 
+                            основных общеобразовательных программ среднего общего образования, развитие устойчивых познавательных 
+                            интересов, творческих способностей обучающихся, формирование навыков самостоятельной учебной деятельности 
+                            на основе дифференциации обучения.
+                        </li>
+                    </ul>
+                    <p>
+                        Образовательная организация осуществляет образовательный процесс в соответствии с образовательными программами 
+                        (основными и дополнительными), учебным планом, которые разрабатываются, утверждаются и реализуются Учреждением 
+                        самостоятельно в соответствии с действующим законодательством РФ. Организация образовательного процесса 
+                        в образовательной организации регламентируется расписанием занятий.
+                        <br><br>
+                        Образовательная организация самостоятельно определяет списки учебников и учебных пособий в соответствии 
+                        с утвержденными федеральными перечнями учебников и учебных пособий, рекомендованных или допущенных 
+                        к использованию в образовательном процессе.
+                        <br><br>
+                        Обучение и воспитание в образовательной организации ведутся на русском языке. <br>
+                        В образовательной организации преподаются в качестве иностранного языка английский язык.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    @@include('partials/footer.html')
+</body>
+</html>

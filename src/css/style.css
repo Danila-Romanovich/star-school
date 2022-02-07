@@ -637,6 +637,10 @@ hr {
   text-align: left;
 }
 
+.table_vertical td:first-child {
+  background-color: #cae0f5;
+}
+
 .list {
   margin: 20px 0;
 }
