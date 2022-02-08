@@ -481,9 +481,9 @@ hr {
 .page-nav__menu {
   margin-top: 20px;
   display: flex;
+  justify-content: center;
   background-color: #f0f2f8;
   padding: 15px 0 0 0;
-  min-height: 200px;
   border-radius: 5px;
 }
 
@@ -541,6 +541,13 @@ hr {
   text-decoration: none;
 }
 
+.page__article picture,
+.page__article img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
 .page__title {
   font-size: 16px;
   font-weight: 700;
@@ -549,6 +556,15 @@ hr {
 .page__subtitle {
   font-size: 16px;
   font-weight: 500;
+}
+
+.page__descr {
+  display: block;
+  margin: 10px 0;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
 }
 
 .page__addr {
@@ -652,7 +668,7 @@ hr {
   list-style: square;
   color: #000;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 22px;
 }
 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icons_pac.woff">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Школьная форма</title>
+</head>
+<body>
+    @@include('partials/header.html')
+    <section class="page-nav">
+        <div class="container">
+            <div class="page-nav__wrapper">
+                <div class="page-nav__breadcrumbs">
+                    <ul class="page-nav__list">
+                        <li class="page-nav__way"><a href="index.html">Главная</a></li>
+                        <span class="icon-chevron-right-solid"></span>
+                        <li class="page-nav__way"><a href="parents.html">Родителю</a></li>
+                        <span class="icon-chevron-right-solid"></span>
+                        <li class="page-nav__way">Школьная форма</li>
+                    </ul>
+                </div>
+                <h1 class="title title_center">Школьная форма</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="page">
+        <div class="container">
+            <div class="page__wrapper">
+                @@include('partials/page-bar-parents.html')
+                <div class="page__article">
+                    <ul class="list">
+                        <li class="list__item list__item_doc">
+                            <span class="icon-file-alt-regular"></span>
+                            <a href="#">Положение об установлении требований к одежде обучающихся</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    @@include('partials/footer.html')
+</body>
+</html>
