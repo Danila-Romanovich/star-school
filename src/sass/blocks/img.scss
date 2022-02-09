@@ -1,0 +1,45 @@
+.img {
+    &__photo {
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 1;
+
+        transform: translate3d(-50%, -50%, 0);
+        &_vertical {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+    &_horizontal {
+        flex-wrap: wrap; 
+    }
+    &__item {
+        height: 300px;
+        width: 300px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        position: relative;
+        overflow: hidden;
+        &:nth-child(3) {
+            margin-right: 0;
+        }
+        &_vertical {
+            height: 500px;
+        }
+        &_horizontal {
+            width: 450px;
+        }
+        
+    }
+    
+}
