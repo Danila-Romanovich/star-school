@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icons_pac.woff">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Режим занятий</title>
+</head>
+
+<body>
+    @@include('partials/header.html')
+    <section class="page-nav">
+        <div class="container">
+            <div class="page-nav__wrapper">
+                <div class="page-nav__breadcrumbs">
+                    <ul class="page-nav__list">
+                        <li class="page-nav__way"><a href="index.html">Главная</a></li>
+                        <span class="icon-chevron-right-solid"></span>
+                        <li class="page-nav__way"><a href="tochka-rosta.html">Центр образования цифрового и
+                                гуманитарного профиля "Точка роста"</a></li>
+                        <span class="icon-chevron-right-solid"></span>
+                        <li class="page-nav__way">Режим занятий</li>
+                    </ul>
+                </div>
+                <h1 class="title title_center">Режим занятий</h1>
+                <!-- <hr> -->
+                <!-- <hr> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="page">
+        <div class="container">
+            <div class="page__wrapper">
+                @@include('partials/page-bar-tochka.html')
+                <div class="page__article">
+                    <p><span class="page__title">Форма обучения: </span>очная</p>
+                    <p><span class="page__title">Язык образования: </span>русский</p>
+                    <p><span class="page__title">Нормативные сроки обучения: </span>1 год</p>
+
+                    <ul class="list list_doc">
+                        <li class="list__item list__item_doc">
+                            <span class="icon-file-alt-regular"></span>
+                            <a href="#">Положение о режиме занятий</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @@include('partials/footer.html')
+</body>
+
+</html>

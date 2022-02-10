@@ -45,4 +45,11 @@
             }
         }
     }
+    &_itogo {
+        tr {
+            &:last-child  {
+                background-color: #cae0f5;
+            }
+        }
+    }
 }

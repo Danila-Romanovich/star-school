@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icons_pac.woff">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Педагоги</title>
+</head>
+
+<body>
+    @@include('partials/header.html')
+    <section class="page-nav">
+        <div class="container">
+            <div class="page-nav__wrapper">
+                <div class="page-nav__breadcrumbs">
+                    <ul class="page-nav__list">
+                        <li class="page-nav__way"><a href="index.html">Главная</a></li>
+                        <span class="icon-chevron-right-solid"></span>
+                        <li class="page-nav__way"><a href="tochka-rosta.html">Центр образования цифрового и
+                                гуманитарного профиля "Точка роста"</a></li>
+                        <span class="icon-chevron-right-solid"></span>
+                        <li class="page-nav__way">Педагоги</li>
+                    </ul>
+                </div>
+                <h1 class="title title_center">Педагоги</h1>
+                <!-- <hr> -->
+                <!-- <hr> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="page">
+        <div class="container">
+            <div class="page__wrapper">
+                @@include('partials/page-bar-tochka.html')
+                <div class="page__article">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>№</th>
+                                <th>Ф.И.О.</th>
+                                <th>должность</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Генинг Анна Ивановна</td>
+                                <td>Руководитель центра «Точка роста»</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Макаева Мария Сергеевна</td>
+                                <td>Учитель химии, биологии, ОБЖ</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Вдовенко Александра Николаевна</td>
+                                <td>Учитель информатики</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Чакилев Валерий Дмитриевич</td>
+                                <td>учитель физической культуры, педагог дополнительного образования</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>КомоловаОлеся Ивановна</td>
+                                <td>Учитель технологии, педагог дополнительного образования</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Степанова-Чернова Анна Юрьевна</td>
+                                <td>Учитель географии, педагог дополнительного образования</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @@include('partials/footer.html')
+</body>
+
+</html>

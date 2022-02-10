@@ -529,6 +529,7 @@ hr {
 }
 
 .page__article p {
+  margin: 15px 0;
   color: #000;
   font-size: 16px;
   font-weight: 300;
@@ -667,8 +668,8 @@ hr {
   background-color: #cae0f5;
 }
 
-.list {
-  margin: 20px 0;
+.table_itogo tr:last-child {
+  background-color: #cae0f5;
 }
 
 .list__item {
@@ -702,6 +703,11 @@ hr {
   color: #0b569e;
 }
 
+.img {
+  display: block;
+  width: 100%;
+}
+
 .img__photo {
   display: block;
   height: 100%;
@@ -717,6 +723,10 @@ hr {
   height: auto;
 }
 
+.img_br {
+  border-radius: 5px;
+}
+
 .img-wrapper {
   display: flex;
   justify-content: center;
@@ -728,16 +738,11 @@ hr {
 }
 
 .img-wrapper__item {
-  height: 300px;
-  width: 300px;
-  margin-right: 5px;
-  margin-bottom: 5px;
+  height: 295px;
+  width: 295px;
+  margin: 3px;
   position: relative;
   overflow: hidden;
-}
-
-.img-wrapper__item:nth-child(3) {
-  margin-right: 0;
 }
 
 .img-wrapper__item_vertical {
